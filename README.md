@@ -1,11 +1,17 @@
 # school_DBMS
 
-### creating .exe file 
+### installing requirements
 
 ```
-virtualenv env --python=python3.8
-source env/bin/activate
 pip install -r requirements.txt
+pip install pyinstaller 
+
 ```
-### Set DB
-use set in windows a
+### creating .exe file
+```
+pyinstaller --onefile File_Name.py
+```
+### working
+
+1.write the password the same as your SQL password
+
